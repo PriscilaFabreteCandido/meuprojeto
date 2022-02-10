@@ -19,9 +19,10 @@
 
 }
 form{
+    height: 100vh;
     font-size: 1.2rem;
     /* display: block; */
-    height: 90vh;
+   
     max-width: 500px;
     padding: 20px;
     font-family: 'Inter', sans-serif;
@@ -30,14 +31,16 @@ form{
     height: auto;   
     margin-left: auto;
     margin-right: auto;
-    border: solid 0.5px #282828;
+    
     
 }
 
 .botao3{
     border-radius: 15px;   
     background-color:#F73759;
-    height: 6vh;
+    font-size: 1rem;
+    padding: 1vh 2vh;
+
    
     max-width: 120px;
     text-align: center;
@@ -73,7 +76,7 @@ form{
 .flex{
     
    width: 100%;
-    height: 50px;
+
    
 }
 
@@ -104,6 +107,4 @@ form{
     color: #282828;
     font-size: 0.9rem;
 }
-
-
 
